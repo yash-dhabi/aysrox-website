@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import heroBg from "@assets/generated_images/abstract_scientific_network_background.png";
+import technicalWritingImg from "@assets/technical_writing_1765140511676.png";
 
 export function Hero() {
   return (
@@ -59,25 +60,16 @@ export function Hero() {
           initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="hidden lg:block"
+          className="hidden lg:block relative"
         >
-          <div className="bg-white/10 backdrop-blur-md border border-white/20 p-8 rounded-2xl shadow-2xl">
-            <h3 className="text-2xl font-serif font-bold text-primary mb-6">What We Focus On</h3>
-            <ul className="space-y-4">
-              {[
-                "Funding-ready proposals & research plans",
-                "High-impact manuscripts & ethical thesis support",
-                "Responsible AI & research communication",
-                "Global & region-specific R&D ecosystems"
-              ].map((item, i) => (
-                <li key={i} className="flex items-start gap-3">
-                  <div className="mt-1 h-5 w-5 rounded-full bg-accent/20 flex items-center justify-center shrink-0">
-                    <div className="h-2 w-2 rounded-full bg-accent" />
-                  </div>
-                  <span className="font-medium text-primary/80">{item}</span>
-                </li>
-              ))}
-            </ul>
+          <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/20 group">
+             {/* Subtle overlay for better text contrast if needed, or just aesthetic */}
+            <div className="absolute inset-0 bg-primary/5 group-hover:bg-transparent transition-colors duration-500 z-10" />
+            <img
+              src={technicalWritingImg}
+              alt="Scientific Technical Writing and Research"
+              className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out"
+            />
           </div>
         </motion.div>
       </div>

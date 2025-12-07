@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>AysRox Solutions – Global R&D Outcomes Studio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="AysRox Solutions is a global R&D outcomes studio helping researchers, innovators, startups, and organizations turn complex ideas into funded projects, high-impact publications, and real-world solutions."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header / Navigation -->
+    <header class="site-header">
+      <div class="container nav-container header-flex">
+
+        <div class="logo">AysRox <span>Solutions</span></div>
+
+        <nav class="nav nav-center">
+          <a href="#hero">Home</a>
+          <a href="#who-we-work-with">Who We Work With</a>
+          <a href="#programs-services">Programs &amp; Services</a>
+          <a href="#process">Our Process</a>
+          <a href="#results">Results</a>
+          <a href="#about">About</a>
+          <a href="#faqs">FAQs</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="btn btn-primary nav-cta">Book a Strategy Call</a>
+
+        <button class="nav-toggle">☰</button>
+
+      </div>
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <main>
+      <section id="hero" class="hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <h1>Your Global Research, Development and Innovation Outcomes Studio</h1>
+
+            <p class="hero-subtitle">
+              We help researchers, innovators, companies, and mission-driven
+              organizations turn complex ideas into funded projects, high-impact
+              publications, ethical and credible research outputs, and scalable
+              real-world solutions.
+            </p>
+            <p class="hero-body">
+              AysRox Solutions blends deep research insight, structured
+              scientific communication, ethical academic support, and
+              AI-enhanced workflows to take your work from draft to outcome with
+              clarity, precision, and trust.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#contact" class="btn btn-primary">
+                Book Your Free Strategy Call
+              </a>
+              <a href="#programs-services" class="btn btn-secondary">
+                Explore Programs &amp; Services
+              </a>
+            </div>
+
+            <p class="hero-quote">
+              “Every idea carries a quiet potential. Our work is to give it
+              language, structure, and direction—so it can walk with confidence
+              into the world and become the impact it was meant to be.”
+            </p>
+          </div>
+
+       
+      </section>
+
+      <!-- TRUST & POSITIONING -->
+      <section id="trust" class="section section-alt">
+        <div class="container">
+          <h2 class="section-title">
+            Trusted by Teams Advancing R&amp;D, Innovation, and Impact
+          </h2>
+          <p class="section-intro">
+            We work with organizations and individuals who are serious about
+            research, innovation, and real-world outcomes.
+          </p>
+
+          <div class="grid grid-3">
+            <div class="card">
+              <h3>Academic &amp; Clinical Institutions</h3>
+              <p>
+                Universities, institutes, and medical research centers that need
+                rigorous, reviewer-ready documentation and communication.
+              </p>
+            </div>
+            <div class="card">
+              <h3>Deep-Tech &amp; AI Startups</h3>
+              <p>
+                Early and growth-stage ventures using AI, biotech, climate
+                tech, robotics, and other advanced technologies to solve
+                real-world problems.
+              </p>
+            </div>
+            <div class="card">
+              <h3>Corporate R&amp;D &amp; Innovation Labs</h3>
+              <p>
+                Internal teams turning research into deployable products, pilots,
+                and scalable solutions across domains.
+              </p>
+            </div>
+            <div class="card">
+              <h3>NGOs, Think Tanks &amp; Policy Groups</h3>
+              <p>
+                Organizations communicating evidence, impact, and policy insights
+                to funders, regulators, and the public.
+              </p>
+            </div>
+            <div class="card">
+              <h3>Research Consortia &amp; Collaborations</h3>
+              <p>
+                Multi-partner, multi-region collaborations aligning science,
+                technology, ethics, and societal impact.
+              </p>
+            </div>
+            <div class="card">
+              <h3>Early-Career &amp; Emerging Researchers</h3>
+              <p>
+                PhD, postdoctoral, and master’s researchers building strong
+                academic or industry careers with robust outputs.
+              </p>
+            </div>
+          </div>
+
+          <p class="section-note">
+            Our work is globally oriented with region-specific knowledge where
+            it matters.
+          </p>
+        </div>
+      </section>
+
+      <!-- WHO WE WORK WITH -->
+      <section id="who-we-work-with" class="section">
+        <div class="container">
+          <h2 class="section-title">Who We Work With</h2>
+          <p class="section-intro">
+            AysRox supports serious R&amp;D teams across disciplines, sectors,
+            and regions.
+          </p>
+
+          <div class="grid grid-2">
+            <div class="card">
+              <h3>1. R&amp;D-Driven Companies &amp; Deep-Tech Startups</h3>
+              <p>
+                For teams building AI, biotech, climate, healthtech, mobility,
+                robotics, and other frontier technologies.
+              </p>
+              <ul>
+                <li>Competitive grants and innovation challenge proposals</li>
+                <li>Technical and regulatory narratives for partners</li>
+                <li>Pilot and evaluation plan design</li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h3>2. Faculty, PIs &amp; Research Groups</h3>
+              <p>
+                For academic and clinical leaders responsible for labs, centers,
+                and high-stakes projects.
+              </p>
+              <ul>
+                <li>Competitive grant and project proposal development</li>
+                <li>High-quality manuscripts and research communication</li>
+                <li>
+                  Impact, risk, ethics, and reviewer-aligned framing of research
+                </li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h3>3. PhD, Postdoctoral &amp; Master’s Researchers</h3>
+              <p>
+                For emerging researchers who want more than just “getting it
+                done.”
+              </p>
+              <ul>
+                <li>Ethical thesis and dissertation structure and refinement</li>
+                <li>Manuscripts derived from completed research</li>
+                <li>Fellowship and next-step research documentation</li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h3>4. NGOs, Policy Teams &amp; CSR Organizations</h3>
+              <p>
+                For organizations that must communicate credible, evidence-based
+                impact.
+              </p>
+              <ul>
+                <li>Policy briefs and white papers</li>
+                <li>Impact evaluations and donor-facing reports</li>
+                <li>Alignment with SDGs and societal impact priorities</li>
+              </ul>
+            </div>
+          
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROGRAMS & SERVICES -->
+      <section id="programs-services" class="section section-alt">
+        <div class="container">
+          <h2 class="section-title">Programs &amp; Services</h2>
+          <p class="section-intro">
+            We organize our work into clear, outcome-oriented programs with
+            supporting services that people actually search for—without
+            compromising ethics or quality.
+          </p>
+
+          <!-- Flagship Programs -->
+          <h3 class="section-subtitle">Flagship Programs</h3>
+          <div class="grid grid-2">
+            <div class="card">
+              <h4>Funding Win-Rate Accelerator™</h4>
+              <p>
+                A structured system to increase your funding success across
+                multiple calls.
+              </p>
+              <ul>
+                <li>
+                  Proposal audits to identify trust gaps and reviewer concerns
+                </li>
+                <li>
+                  Mapping research to suitable calls, nationally and globally
+                </li>
+                <li>
+                  Fundable narratives, work plans, milestones, and risk
+                  strategies
+                </li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h4>Publication &amp; Research Communication Studio™</h4>
+              <p>For researchers aiming for respected journals and conferences.</p>
+              <ul>
+                <li>Manuscript development from completed research</li>
+                <li>
+                  Clarity, contribution, and coherence enhancement for reviewers
+                </li>
+                <li>Figures, tables, and narrative alignment</li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h4>Thesis &amp; Early Research Excellence Track™</h4>
+              <p>
+                Ethical, structured support for PhD, postdoctoral, and serious
+                master’s research.
+              </p>
+              <ul>
+                <li>Thesis structure, chapter planning, and refinement</li>
+                <li>Clarity and readability enhancement</li>
+                <li>Publication pathways from completed work</li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h4>Regional Research &amp; Collaboration Gateway™</h4>
+              <p>
+                For global teams building research and innovation in new
+                regions.
+              </p>
+              <ul>
+                <li>
+                  Adapting proposals and documents to regional requirements
+                </li>
+                <li>
+                  Aligning with local ethics, impact, and review expectations
+                </li>
+                <li>Preparing joint-call and collaboration documents</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Core Services -->
+          <h3 class="section-subtitle">Core Services</h3>
+          <div class="grid grid-2">
+            <div class="card">
+              <h4>Grant &amp; Proposal Development</h4>
+              <p>
+                Support for national, regional, and global calls in areas such
+                as health, AI, climate, agriculture, mobility, and more.
+              </p>
+              <ul>
+                <li>Concept notes and full proposals</li>
+                <li>Work packages, Gantt charts, and milestones</li>
+                <li>Impact, risk, and ethics sections</li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h4>Research Paper / Manuscript Writing &amp; Heavy Editing</h4>
+              <p>
+                Development and refinement of manuscripts from completed
+                research.
+              </p>
+              <ul>
+                <li>Structure, flow, and argument enhancement</li>
+                <li>Journal alignment and clarity improvement</li>
+                <li>
+                  Ethical support only—authorship, data, and integrity remain
+                  with you
+                </li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h4>Thesis / Dissertation Support &amp; Editing</h4>
+              <p>
+                Support for PhD, MD, MSc, M.Tech, and related degrees that
+                respects academic ethics.
+              </p>
+              <ul>
+                <li>Structure, feedback, and clarity improvement</li>
+                <li>Academic writing support and formatting</li>
+                <li>
+                  Defense preparation and alignment with institutional
+                  guidelines
+                </li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h4>Research Reviews and Evidence Synthesis</h4>
+              <p>Comprehensive support for structured, high-quality research reviews across multiple review formats.</p>
+              <ul>
+                <li>Design of review protocols and search strategies</li>
+                <li>Screening, data extraction, and organization of evidence</li>
+                <li>Narrative synthesis, thematic analysis, and structured reporting</li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h4>White Papers, Policy Briefs &amp; Impact Reports</h4>
+              <p>
+                Evidence-based communication for governments, donors, and
+                stakeholders.
+              </p>
+              <ul>
+                <li>Technology and white papers</li>
+                <li>Policy briefs grounded in data</li>
+                <li>Impact and evaluation reports</li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h4>Patent &amp; Technical Documentation Support</h4>
+              <p>
+                Clear technical narratives to work alongside IP and legal
+                experts.
+              </p>
+              <ul>
+                <li>Technical descriptions and data narratives</li>
+                <li>Support documents for IP attorneys and tech transfer</li>
+                <li>
+                  Clarity that helps non-technical reviewers understand the
+                  value
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Region-specific note -->
+          <p class="section-note">
+            We offer specialized expertise when working with different regional
+            funding and research ecosystems while remaining fully global in
+            scope.
+          </p>
+        </div>
+      </section>
+
+      <!-- PROCESS -->
+      <section id="process" class="section">
+        <div class="container">
+          <h2 class="section-title">How We Work</h2>
+          <p class="section-intro">
+            Our process is simple, clear, and designed around outcomes—not
+            word-count.
+          </p>
+
+          <div class="grid grid-4 process-grid">
+            <div class="card">
+              <h3>1. Discovery &amp; Clarity</h3>
+              <p>
+                We understand your goals, project stage, key requirements, deadlines, and the outcome you want to achieve.
+              </p>
+            </div>
+            <div class="card">
+              <h3>2. Scope &amp; Roadmap</h3>
+              <p>
+                We define tasks, milestones, deliverables, and fixed pricing so expectations remain aligned from the start.
+              </p>
+            </div>
+            <div class="card">
+              <h3>3. Deep Work Phase</h3>
+              <p>
+                We develop, refine, and structure your material using domain insight, research logic, and communication practices expected by reviewers, funders, and publication standards.
+              </p>
+            </div>
+            <div class="card">
+              <h3>4. Submission-Ready Delivery</h3>
+              <p>
+                Final documents are prepared in the required format with clarity, consistency, and optional support for revisions or responses.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- WHY AYSROX -->
+      <section id="about" class="section section-alt">
+        <div class="container">
+          <h2 class="section-title">Why AysRox Solutions</h2>
+          <p class="section-intro">
+            We are not a generic writing service. We are a focused R&amp;D
+            outcomes studio.
+          </p>
+
+          <div class="grid grid-2">
+            <div>
+              <ul class="bullet-list">
+                <li>
+                  <strong>We think like reviewers, not copywriters.</strong>
+                  We understand how panels, editors, and committees read,
+                  decide, and reject.
+                </li>
+                <li>
+                  <strong>We balance global standards with regional realities.</strong>
+                  We adapt to different scientific cultures, expectations, and
+                  grant systems.
+                </li>
+                <li>
+                  <strong>We use AI responsibly.</strong> AI helps with
+                  structure and exploration; human expertise leads the reasoning
+                  and ethics.
+                </li>
+                <li>
+                  <strong>We respect academic integrity.</strong> No fake data,
+                  no ghostwriting. We enhance real work; we don’t invent it.
+                </li>
+                <li>
+                  <strong>We prioritize trust.</strong> Clear scopes, fixed
+                  pricing, realistic promises, and on-time delivery.
+                </li>
+              </ul>
+            </div>
+            <div>
+              <p>
+                AysRox Solutions exists for one reason: to help research and
+                innovation move more confidently from idea to impact. Whether
+                you’re designing a complex AI trial, writing your first
+                fellowship application, coordinating a multi-country study, or
+                preparing a thesis that represents years of work, you do not
+                have to navigate it alone.
+              </p>
+              <p>
+                We bring together research strategy, communication, and
+                responsible AI-enabled workflows so your work can be seen,
+                understood, and funded by the people who matter.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- RESULTS -->
+      <section id="results" class="section">
+        <div class="container">
+          <h2 class="section-title">Representative Results &amp; Stories</h2>
+          <p class="section-intro">
+            These examples are indicative and anonymized. They illustrate the
+            type of outcomes we help create.
+          </p>
+
+          <div class="grid grid-3">
+            <div class="card">
+              <h3>Innovation Funding for Deep-Tech Teams</h3>
+              <p>
+                Supported early-stage and growth-stage deep-tech startups in
+                securing competitive innovation grants, enabling them to move
+                from prototype to pilot deployment.
+              </p>
+            </div>
+            <div class="card">
+              <h3>Mission-Mode Research Grants</h3>
+              <p>
+                Assisted academic labs and consortia to obtain multi-year
+                mission-mode research funding focused on AI, health, mobility,
+                sustainability, and human factors.
+              </p>
+            </div>
+            <div class="card">
+              <h3>High-Impact Manuscripts</h3>
+              <p>
+                Helped research teams sharpen manuscripts so that complex
+                methods and results were understandable, defensible, and aligned
+                with journal expectations.
+              </p>
+            </div>
+            <div class="card">
+              <h3>Thesis Completion &amp; Publication Pathways</h3>
+              <p>
+                Guided doctoral and master’s researchers from scattered drafts
+                to structured theses and papers derived from their own research.
+              </p>
+            </div>
+            <div class="card">
+              <h3>Policy &amp; Impact Communication</h3>
+              <p>
+                Produced policy briefs and impact evaluations that supported
+                renewed funding cycles and informed decision-making for NGOs and
+                donors.
+              </p>
+            </div>
+            <div class="card">
+              <h3>Global Collaborations</h3>
+              <p>
+                Helped international teams frame collaborative research in ways
+                that respected local realities while meeting global standards.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQS -->
+      <section id="faqs" class="section section-alt">
+        <div class="container">
+          <h2 class="section-title">Frequently Asked Questions</h2>
+
+          <div class="faq-list">
+
+            <div class="faq-item">
+              <h3>Do you write my thesis or paper for me from scratch?</h3>
+              <p>
+                No. We support structure, clarity, editing, and research communication.
+                You remain responsible for the research, data, and core ideas.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3>Can you work with teams outside my country?</h3>
+              <p>
+                Yes. We collaborate with universities, startups, corporates, NGOs,
+                and research teams across many regions and adapt to their needs.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3>Do you use AI tools in your work?</h3>
+              <p>
+                Yes. We use AI responsibly for structuring and acceleration while
+                all reasoning and final decisions remain human led.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3>How do you price your services?</h3>
+              <p>
+                Pricing depends on complexity and timelines. After a discovery call
+                you receive a fixed fee quote with a clear scope and no hidden charges.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3>What kinds of projects do you not take?</h3>
+              <p>
+                We do not assist with ghostwriting of theses or any fabrication of
+                data. We work only with real and ethical research.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3>Who is the team behind AysRox Solutions?</h3>
+              <p>
+                Our team includes researchers and domain experts with backgrounds
+                from institutions such as the University of Waterloo, Polytechnique Montreal,
+                Iowa State University, Louisiana Tech University, IIT Roorkee, and BITS Pilani.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3>What makes AysRox different from regular writing services?</h3>
+              <p>
+                We focus on research outcomes, reviewer expectations, structured communication,
+                and academic integrity rather than generic writing support.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3>How do you maintain confidentiality?</h3>
+              <p>
+                All documents and communication remain private. We do not share,
+                reuse, or expose any client material under any condition.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3>What fields of research do you support?</h3>
+              <p>
+                We support engineering, AI, health, science, human factors, policy,
+                environmental studies, and interdisciplinary research areas.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3>Do you support urgent deadlines?</h3>
+              <p>
+                Yes. We take priority projects with accelerated timelines while
+                maintaining clarity and quality.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3>How do revisions work?</h3>
+              <p>
+                Revisions within the agreed scope are included until the document
+                reaches the required clarity and readiness.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3>What if reviewers request changes?</h3>
+              <p>
+                We offer reviewer response support including refinement of sections
+                and clear point by point replies.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3>Do you guarantee funding or publication?</h3>
+              <p>
+                No organization can guarantee outcomes. We strengthen clarity,
+                logic, and structure to improve competitiveness.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3>Do you support long term collaborations?</h3>
+              <p>
+                Yes. We work with labs, startups, NGOs, and institutes across
+                multiple grant cycles and publication pipelines.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3>Can you help convert a thesis into a publication?</h3>
+              <p>
+                Yes. We help transform completed thesis chapters into manuscripts
+                suitable for journals or conferences.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3>How do contracts and payments work?</h3>
+              <p>
+                Each project begins with a clear scope, fixed fee, and timeline
+                so expectations remain transparent and predictable.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+<!-- CONTACT / CTA -->
+<section id="contact" class="section contact-section">
+  <div class="container">
+
+    <h2 class="section-title">
+      Ready to Turn Your Research Into a Funded, Published, or Deployed Reality?
+    </h2>
+    <p class="section-intro">
+      Book a free 30-minute strategy call. We will map where you are now,
+      where you want to go, and the most effective path from idea to outcome.
+    </p>
+
+    <div class="contact-grid">
+
+      <!-- LEFT CARD -->
+      <div class="card">
+        <h3>Book a Strategy Call</h3>
+        <p>
+          Share a brief overview of your project and we will follow up with
+          available time slots and next steps.
+        </p>
+        <p class="contact-email">
+          Email: <a href="mailto:hello@aysrox.com">hello@aysrox.com</a>
+        </p>
+      </div>
+
+      <!-- RIGHT CARD -->
+      <div class="card">
+        <h3>What to Include</h3>
+        <ul>
+          <li>Type of project (grant, paper, thesis, review, proposal)</li>
+          <li>Your field or domain</li>
+          <li>Target agency, journal, or outcome</li>
+          <li>Key deadlines or constraints</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- CONTACT FORM BELOW CARDS -->
+    <div class="contact-form-wrapper">
+      <h3 class="form-title">Request a Free Consultation</h3>
+
+      <form class="contact-form">
+
+        <div class="form-row">
+          <div class="form-group">
+            <label>First name *</label>
+            <input type="text" required>
+          </div>
+          <div class="form-group">
+            <label>Last name *</label>
+            <input type="text" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label>Company or Institution *</label>
+            <input type="text" required>
+          </div>
+          <div class="form-group">
+            <label>Job title *</label>
+            <input type="text" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label>Email *</label>
+            <input type="email" required>
+          </div>
+          <div class="form-group">
+            <label>Country *</label>
+            <select required>
+              <option value="">Select country</option>
+              <option>United States</option>
+              <option>Canada</option>
+              <option>United Kingdom</option>
+              <option>India</option>
+              <option>Australia</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>How can we help?</label>
+          <textarea rows="4" placeholder="Describe your project or requirements..."></textarea>
+        </div>
+
+        <button type="submit" class="primary-btn">Submit Request</button>
+
+      </form>
+    </div>
+
+  </div>
+</section>
+
+    </main>
+
+    <!-- Animation Script -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // Add reveal class to sections
+        const sections = document.querySelectorAll('.section, .section-alt, .hero');
+        sections.forEach(section => {
+          if (!section.classList.contains('hero')) {
+            section.classList.add('reveal');
+          }
+        });
+
+        // Add floating animation to hero quote
+        const heroQuote = document.querySelector('.hero-quote');
+        if (heroQuote) {
+          heroQuote.classList.add('hero-float');
+        }
+
+        // Intersection Observer for scroll animations
+        const observerOptions = {
+          root: null,
+          rootMargin: '0px',
+          threshold: 0.1
+        };
+
+        // Observer for sections
+        const sectionObserver = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+            }
+          });
+        }, observerOptions);
+
+        // Observe all reveal elements
+        document.querySelectorAll('.reveal').forEach(el => {
+          sectionObserver.observe(el);
+        });
+
+        // Observer for cards with staggered animation
+        const cardObserver = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+            }
+          });
+        }, { threshold: 0.05 });
+
+        document.querySelectorAll('.card').forEach(card => {
+          cardObserver.observe(card);
+        });
+
+        // Observer for FAQ items
+        const faqObserver = new IntersectionObserver((entries) => {
+          entries.forEach((entry, index) => {
+            if (entry.isIntersecting) {
+              setTimeout(() => {
+                entry.target.classList.add('visible');
+              }, index * 80);
+            }
+          });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.faq-item').forEach(item => {
+          faqObserver.observe(item);
+        });
+
+        // Animate hero text on load
+        const heroText = document.querySelector('.hero-text');
+        if (heroText) {
+          setTimeout(() => {
+            heroText.classList.add('visible');
+          }, 100);
+        }
+
+        // Mobile nav toggle
+        const navToggle = document.querySelector('.nav-toggle');
+        const nav = document.querySelector('.nav');
+        if (navToggle && nav) {
+          navToggle.addEventListener('click', () => {
+            nav.classList.toggle('nav-open');
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
+
