@@ -33,7 +33,7 @@ export function Hero() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 text-balance text-primary">
             Your Global <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
-              R&D Outcomes Studio
+              Research, Development and Innovation Outcomes Studio
             </span>
           </h1>
           

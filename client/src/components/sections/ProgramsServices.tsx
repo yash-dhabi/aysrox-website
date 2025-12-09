@@ -71,7 +71,7 @@ export function ProgramsServices() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Programs & Services</h2>
           <p className="text-primary-foreground/80 text-lg max-w-2xl mx-auto">
-            Outcome-oriented programs with supporting services that people actually search for—without compromising ethics or quality.
+            Outcome-oriented programs with supporting services that people actually search for.
           </p>
         </div>
 

@@ -38,15 +38,7 @@ const audiences = [
       "Alignment with SDGs and societal impact priorities"
     ]
   },
-  {
-    title: "Global Teams Entering New Regions",
-    description: "For international teams engaging with India or other regional contexts.",
-    points: [
-      "Localization of proposals and research plans",
-      "Context-specific ethics and impact framing",
-      "Joint-call and collaborative documentation support"
-    ]
-  }
+  
 ];
 
 export function WhoWeWorkWith() {
