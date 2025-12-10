@@ -27,7 +27,7 @@ export function Footer() {
                 </svg>
               </a>
               <a 
-                href="https://whatsapp.com" 
+                href="https://wa.me/message/7E46DN2O6RGTF1" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="h-10 w-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent hover:text-primary transition-all group" 

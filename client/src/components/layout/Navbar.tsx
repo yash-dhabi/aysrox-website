@@ -28,7 +28,10 @@ export function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
+  const scrollToSection = (
+    e: React.MouseEvent<HTMLAnchorElement>,
+    id: string
+  ) => {
     e.preventDefault();
     const element = document.querySelector(id);
     if (element) {
@@ -47,11 +50,12 @@ export function Navbar() {
       )}
     >
       <div className="container-width flex items-center justify-between">
-        <a 
-          href="#hero" 
+        <a
+          href="#hero"
           className="text-2xl font-serif font-bold tracking-tight text-primary flex items-center gap-2"
           onClick={(e) => scrollToSection(e, "#hero")}
         >
+          <img src="/logo.png" alt="AysRox Solutions" className="h-12 w-12" />
           AysRox <span className="text-accent">Solutions</span>
         </a>
 
@@ -67,7 +71,7 @@ export function Navbar() {
               {link.name}
             </a>
           ))}
-          <Button 
+          <Button
             className="bg-primary hover:bg-primary/90 text-white font-medium px-6"
             onClick={(e) => {
               const el = document.querySelector("#contact");
@@ -97,12 +101,12 @@ export function Navbar() {
                   {link.name}
                 </a>
               ))}
-              <Button 
+              <Button
                 className="w-full mt-4"
                 onClick={() => {
-                   setIsOpen(false);
-                   const el = document.querySelector("#contact");
-                   if (el) el.scrollIntoView({ behavior: "smooth" });
+                  setIsOpen(false);
+                  const el = document.querySelector("#contact");
+                  if (el) el.scrollIntoView({ behavior: "smooth" });
                 }}
               >
                 Book Strategy Call
