@@ -53,7 +53,7 @@ export function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-bold">Email Us</h4>
-                  <p className="text-muted-foreground">contact@aysrox.com</p>
+                  <p className="text-muted-foreground">info@aysroxsolutions.co</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">

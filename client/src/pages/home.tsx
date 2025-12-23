@@ -28,7 +28,7 @@ export default function Home() {
         <WhoWeWorkWith />
         <ProgramsServices />
         <ProcessSection />
-        <WhenToEngageSection />
+        {/* <WhenToEngageSection /> */}
         <FitCheckSection />
         <TrustSection />
         <ResultsSection />

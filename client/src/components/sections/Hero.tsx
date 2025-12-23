@@ -6,7 +6,10 @@ import technicalWritingImg from "@assets/technical_writing_1765140511676.png";
 
 export function Hero() {
   return (
-    <section id="hero" className="relative min-h-screen flex items-center pt-20 overflow-hidden">
+    <section
+      id="hero"
+      className="relative min-h-screen flex items-center pt-20 overflow-hidden"
+    >
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
@@ -35,24 +38,45 @@ export function Hero() {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground mb-6 leading-relaxed">
-            Independent research and decision support for work where mistakes are costly and clarity matters. When decisions must be made before everything is fully clear, we help people and organizations think, evaluate, and act with confidence.
+            Independent research and decision support for work where mistakes
+            are costly and clarity matters. When decisions must be made before
+            everything is fully clear, we help people and organizations think,
+            evaluate, and act with confidence.
           </p>
           <p className="text-base md:text-lg text-muted-foreground mb-8 leading-relaxed">
-            We do not sell tools. We do not promote products. We do not replace internal teams. We make uncertainty understandable, manageable, and decision-ready.
+            We do not sell tools. We do not promote products. We do not replace
+            internal teams. We make uncertainty understandable, manageable, and
+            decision-ready.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-10">
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-white gap-2 h-12 px-8 text-base shadow-lg shadow-primary/20">
+            <Button
+              size="lg"
+              className="bg-primary hover:bg-primary/90 text-white gap-2 h-12 px-8 text-base shadow-lg shadow-primary/20 cursor-pointer"
+              onClick={() => {
+                const el = document.querySelector("#contact");
+                if (el) el.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
               Book a Discovery Call
               <ArrowRight className="h-4 w-4" />
             </Button>
-            <Button size="lg" variant="outline" className="h-12 px-8 text-base border-primary/20 hover:bg-primary/5 text-primary">
+            <Button
+              size="lg"
+              variant="outline"
+              className="h-12 px-8 text-base border-primary/20 hover:bg-primary/5 text-primary cursor-pointer"
+              onClick={() => {
+                const el = document.querySelector("#programs-services");
+                if (el) el.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
               View Programs
             </Button>
           </div>
 
           <blockquote className="border-l-4 border-accent pl-4 italic text-muted-foreground">
-            “Clear reasoning and defensible methods matter most when stakes are high and uncertainty is real.”
+            “Clear reasoning and defensible methods matter most when stakes are
+            high and uncertainty is real.”
           </blockquote>
         </motion.div>
 
