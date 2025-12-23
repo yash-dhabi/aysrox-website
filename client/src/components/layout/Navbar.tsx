@@ -8,10 +8,8 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 const navLinks = [
   { name: "Home", href: "#hero" },
   { name: "Who We Work With", href: "#who-we-work-with" },
-  { name: "Programs & Services", href: "#programs-services" },
   { name: "Process", href: "#process" },
   { name: "Results", href: "#results" },
-  { name: "About", href: "#about" },
   { name: "FAQs", href: "#faqs" },
 ];
 
@@ -72,7 +70,7 @@ export function Navbar() {
             </a>
           ))}
           <Button
-            className="bg-primary hover:bg-primary/90 text-white font-medium px-6"
+            className="bg-primary hover:bg-primary/90 text-white font-medium px-6 rounded-full cursor-pointer"
             onClick={(e) => {
               const el = document.querySelector("#contact");
               if (el) el.scrollIntoView({ behavior: "smooth" });
@@ -102,11 +100,12 @@ export function Navbar() {
                 </a>
               ))}
               <Button
-                className="w-full mt-4"
+                className="w-full mt-4 rounded-full"
                 onClick={() => {
                   setIsOpen(false);
                   const el = document.querySelector("#contact");
-                  if (el) el.scrollIntoView({ behavior: "smooth" });
+                    if (el) el.scrollIntoView({ behavior: "smooth" });
+                    setIsOpen(false);
                 }}
               >
                 Book Strategy Call

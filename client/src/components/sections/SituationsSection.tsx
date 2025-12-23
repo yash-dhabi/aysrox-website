@@ -14,7 +14,7 @@ export function SituationsSection() {
       <div className="container-width">
         <div className="mb-8">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Situations Where Uncertainty Exists
+           Uncertainty Situations
           </h2>
           <p className="text-muted-foreground text-lg max-w-3xl">
             These are the conditions where our work is most useful.

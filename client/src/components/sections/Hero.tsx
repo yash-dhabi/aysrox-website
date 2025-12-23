@@ -51,7 +51,7 @@ export function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 mb-10">
             <Button
               size="lg"
-              className="bg-primary hover:bg-primary/90 text-white gap-2 h-12 px-8 text-base shadow-lg shadow-primary/20 cursor-pointer"
+              className="bg-primary hover:bg-primary/90 text-white gap-2 h-12 px-8 text-base shadow-lg shadow-primary/20 cursor-pointer rounded-full"
               onClick={() => {
                 const el = document.querySelector("#contact");
                 if (el) el.scrollIntoView({ behavior: "smooth" });
