@@ -60,7 +60,7 @@ export function Hero() {
               Book a Discovery Call
               <ArrowRight className="h-4 w-4" />
             </Button>
-            <Button
+            {/* <Button
               size="lg"
               variant="outline"
               className="h-12 px-8 text-base border-primary/20 hover:bg-primary/5 text-primary cursor-pointer"
@@ -70,13 +70,13 @@ export function Hero() {
               }}
             >
               View Programs
-            </Button>
+            </Button> */}
           </div>
 
-          <blockquote className="border-l-4 border-accent pl-4 italic text-muted-foreground">
+          {/* <blockquote className="border-l-4 border-accent pl-4 italic text-muted-foreground">
             “Clear reasoning and defensible methods matter most when stakes are
             high and uncertainty is real.”
-          </blockquote>
+          </blockquote> */}
         </motion.div>
 
         <motion.div

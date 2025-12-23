@@ -1,4 +1,53 @@
 import { Button } from "@/components/ui/button";
+import { motion } from "framer-motion";
+import { useEffect, useRef, useState } from "react";
+
+function Counter({ end, duration = 2, suffix = "", prefix = "" }) {
+  const [count, setCount] = useState(0);
+  const [isVisible, setIsVisible] = useState(false);
+  const ref = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting && !isVisible) {
+          setIsVisible(true);
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    if (ref.current) observer.observe(ref.current);
+    return () => observer.disconnect();
+  }, [isVisible]);
+
+  useEffect(() => {
+    if (!isVisible) return;
+
+    let startTime;
+    const animate = (timestamp) => {
+      if (!startTime) startTime = timestamp;
+      const progress = (timestamp - startTime) / (duration * 1000);
+
+      if (progress < 1) {
+        setCount(Math.floor(end * progress));
+        requestAnimationFrame(animate);
+      } else {
+        setCount(end);
+      }
+    };
+
+    requestAnimationFrame(animate);
+  }, [isVisible, end, duration]);
+
+  return (
+    <div ref={ref} className="text-4xl md:text-5xl font-bold text-accent">
+      {prefix}
+      {count.toLocaleString()}
+      {suffix}
+    </div>
+  );
+}
 
 export function ResultsSection() {
   return (
@@ -10,25 +59,19 @@ export function ResultsSection() {
 
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           <div className="p-8 bg-white rounded-xl shadow-sm">
-            <div className="text-4xl md:text-5xl font-bold text-accent mb-2">
-              $50M+
-            </div>
+            <Counter end={2} duration={2.5} prefix="$" suffix="M+" />
             <p className="text-muted-foreground font-medium">
               In Research Funding Facilitated
             </p>
           </div>
           <div className="p-8 bg-white rounded-xl shadow-sm">
-            <div className="text-4xl md:text-5xl font-bold text-primary mb-2">
-              500+
-            </div>
+            <Counter end={200} duration={2} suffix="+" />
             <p className="text-muted-foreground font-medium">
               High-Impact Publications
             </p>
           </div>
           <div className="p-8 bg-white rounded-xl shadow-sm">
-            <div className="text-4xl md:text-5xl font-bold text-secondary-foreground mb-2">
-              30+
-            </div>
+            <Counter end={30} duration={2} suffix="+" />
             <p className="text-muted-foreground font-medium">
               Global Markets Entered
             </p>

@@ -25,14 +25,14 @@ export default function Home() {
         <Hero />
         <SituationsSection />
         <CoreSection />
-        <WhatWeDoSection />
         {/* <BoundarySection /> */}
         <WhoWeWorkWith />
-        <ProgramsServices />
+        <WhatWeDoSection />
+        {/* <ProgramsServices /> */}
         <ProcessSection />
         {/* <WhenToEngageSection /> */}
         <FitCheckSection />
-        <TrustSection />
+        {/* <TrustSection /> */}
         <ResultsSection />
         <FAQSection />
         <ClosingSection />

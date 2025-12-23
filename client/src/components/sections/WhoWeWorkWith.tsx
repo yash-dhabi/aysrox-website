@@ -82,9 +82,9 @@ export function WhoWeWorkWith() {
       <div className="container-width">
         <div className="mb-12 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Who We Work With</h2>
-          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+          {/* <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
             Decision contexts where clarity matters more than speed or optimism.
-          </p>
+          </p> */}
         </div>
 
         <div className="grid lg:grid-cols-3 gap-8 lg:gap-12 items-start">
