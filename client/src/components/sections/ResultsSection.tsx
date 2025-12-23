@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 
-function Counter({ end, duration = 2, suffix = "", prefix = "" }) {
+function Counter({ end, duration = 2, suffix = "", prefix = "" }: { end: number; duration?: number; suffix?: string; prefix?: string }) {
   const [count, setCount] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef(null);
@@ -24,8 +24,8 @@ function Counter({ end, duration = 2, suffix = "", prefix = "" }) {
   useEffect(() => {
     if (!isVisible) return;
 
-    let startTime;
-    const animate = (timestamp) => {
+    let startTime: number;
+    const animate = (timestamp: number) => {
       if (!startTime) startTime = timestamp;
       const progress = (timestamp - startTime) / (duration * 1000);
 
