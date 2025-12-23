@@ -1,12 +1,11 @@
 import { motion } from "framer-motion";
 
 const situations = [
-  "The problem is not fully defined yet",
-  "Information is incomplete, inconsistent, or difficult to interpret",
-  "Data exists, but its quality, meaning, or relevance is unclear",
-  "Time is limited and decisions must be made under pressure",
-  "Teams disagree on interpretation, priorities, or next steps",
-  "The decision must be defensible to reviewers, leadership, partners, regulators, or funders",
+    "The problem is not fully defined",
+    "Information is incomplete, inconsistent, or hard to interpret",
+    "There is partial understanding of the problem, the solution, or both",
+    "Time is limited and decisions must be made under pressure",
+    "Data exists, but its meaning or quality is unclear",
 ];
 
 export function SituationsSection() {

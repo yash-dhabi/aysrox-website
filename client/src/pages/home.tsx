@@ -15,6 +15,7 @@ import { BoundarySection } from "@/components/sections/BoundarySection";
 import { WhenToEngageSection } from "@/components/sections/WhenToEngageSection";
 import { FitCheckSection } from "@/components/sections/FitCheckSection";
 import { ClosingSection } from "@/components/sections/ClosingSection";
+import CoreSection from "@/components/sections/CoreSection";
 
 export default function Home() {
   return (
@@ -23,8 +24,9 @@ export default function Home() {
       <main>
         <Hero />
         <SituationsSection />
+        <CoreSection />
         <WhatWeDoSection />
-        <BoundarySection />
+        {/* <BoundarySection /> */}
         <WhoWeWorkWith />
         <ProgramsServices />
         <ProcessSection />

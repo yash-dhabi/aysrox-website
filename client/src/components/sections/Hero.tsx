@@ -38,16 +38,15 @@ export function Hero() {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground mb-6 leading-relaxed">
-            Independent research and decision support for work where mistakes
-            are costly and clarity matters. When decisions must be made before
-            everything is fully clear, we help people and organizations think,
-            evaluate, and act with confidence.
+            We provide independent research and decision support for work where
+            mistakes are costly and clarity is critical. We help people and
+            organizations think, evaluate, and act with confidence.
           </p>
-          <p className="text-base md:text-lg text-muted-foreground mb-8 leading-relaxed">
+          {/* <p className="text-base md:text-lg text-muted-foreground mb-8 leading-relaxed">
             We do not sell tools. We do not promote products. We do not replace
             internal teams. We make uncertainty understandable, manageable, and
             decision-ready.
-          </p>
+          </p> */}
 
           <div className="flex flex-col sm:flex-row gap-4 mb-10">
             <Button
