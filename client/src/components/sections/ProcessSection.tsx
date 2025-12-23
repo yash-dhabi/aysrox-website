@@ -3,29 +3,34 @@ import { motion } from "framer-motion";
 const steps = [
   {
     number: "01",
-    title: "Discovery & Alignment",
-    description: "We understand your goals, the specific call or target, and the gaps in your current material."
+    title: "Discovery and Alignment",
+    description:
+      "We understand goals, constraints, and where uncertainty truly sits.",
   },
   {
     number: "02",
-    title: "Strategy & Structuring",
-    description: "We map out the narrative, logic flow, compliance requirements, and impact strategy."
+    title: "Problem Framing and Structuring",
+    description:
+      "We make the actual problem explicit and separate facts from assumptions.",
   },
   {
     number: "03",
-    title: "Drafting & Refinement",
-    description: "Iterative development of content—ensuring scientific accuracy, clarity, and persuasive power."
+    title: "Evaluation and Development",
+    description:
+      "We apply defensible methods suited to the context and audience.",
   },
   {
     number: "04",
-    title: "Review & Polish",
-    description: "Final checks for compliance, tone, formatting, and completeness before submission."
+    title: "Review and Decision Readiness",
+    description:
+      "We ensure outputs are clear, limited, and explainable.",
   },
   {
     number: "05",
-    title: "Post-Submission Support",
-    description: "Handling revisions, reviewer responses, or interview preparation."
-  }
+    title: "Post-Decision Support",
+    description:
+      "We support revisions, responses, and next steps as needed.",
+  },
 ];
 
 export function ProcessSection() {

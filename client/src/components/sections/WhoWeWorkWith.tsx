@@ -3,42 +3,65 @@ import { CheckCircle2 } from "lucide-react";
 
 const audiences = [
   {
-    title: "R&D-Driven Companies & Deep-Tech Startups",
-    description: "For teams building AI, biotech, climate, healthtech, mobility, robotics, and other frontier technologies.",
+    title: "Industry Research and Development Teams",
+    description:
+      "Teams developing, evaluating, or deploying systems where human use, safety, reliability, or adoption determines success.",
     points: [
-      "Competitive grants and innovation challenge proposals",
-      "Technical and regulatory narratives for partners",
-      "Pilot and evaluation plan design"
-    ]
+      "Build, pilot, deploy, pause, or revise decisions",
+      "Pre-commitment evaluations and decision readiness",
+      "Operational readiness and adoption risk checks",
+    ],
   },
   {
-    title: "Faculty, PIs & Research Groups",
-    description: "For academic and clinical leaders responsible for labs, centers, and high-stakes projects.",
+    title: "Technology and Deep Research Startups",
+    description:
+      "Founders and technical leaders working with advanced technologies who need independent evaluation before claims, capital, pilots, or scaling.",
     points: [
-      "Competitive grant and project proposal development",
-      "High-quality manuscripts and research communication",
-      "Impact, risk, ethics, and reviewer-aligned framing"
-    ]
+      "Audit-style reviews of models, evidence, and claims",
+      "Pilot evaluation and deployment guidance",
+      "Defensible narratives for investors and partners",
+    ],
   },
   {
-    title: "PhD, Postdoctoral & Master’s Researchers",
-    description: "For emerging researchers who want more than just “getting it done.”",
+    title: "Academic Faculty and Research Leaders",
+    description:
+      "Principal investigators and group leaders responsible for high-stakes projects and competitive funding.",
     points: [
-      "Ethical thesis and dissertation structure and refinement",
-      "Manuscripts derived from completed research",
-      "Fellowship and next-step research documentation"
-    ]
+      "Clarity, rigor, and reviewer alignment",
+      "Study design, methods, and evidence-to-claim checks",
+      "Decision memos without altering scientific intent",
+    ],
   },
   {
-    title: "NGOs, Policy Teams & CSR Organizations",
-    description: "For organizations that must communicate credible, evidence-based impact.",
+    title: "Early-Career Researchers",
+    description:
+      "Doctoral, postdoctoral, and master’s researchers structuring thesis work, publications, and career-critical decisions.",
     points: [
-      "Policy briefs and white papers",
-      "Impact evaluations and donor-facing reports",
-      "Alignment with SDGs and societal impact priorities"
-    ]
+      "Ethical structure and chapter planning",
+      "Clarity and readability refinement",
+      "Publication pathways from completed work",
+    ],
   },
-  
+  {
+    title: "Public-Interest, Policy, and Non-Profit Organizations",
+    description:
+      "Organizations communicating evidence, impact, and tradeoffs to funders, regulators, and the public.",
+    points: [
+      "Evidence clarity and defensible reasoning",
+      "Accountability and transparency over persuasion",
+      "Impact framing and reviewer expectations",
+    ],
+  },
+  {
+    title: "Leadership Teams Seeking an Independent Second Opinion",
+    description:
+      "Decision-makers with internal analyses who need an unbiased external perspective before committing resources or making claims.",
+    points: [
+      "Pre-commitment evaluations and decision memos",
+      "Build, pilot, deploy, or pause recommendations",
+      "Documented limits and defensibility",
+    ],
+  },
 ];
 
 export function WhoWeWorkWith() {
@@ -48,7 +71,7 @@ export function WhoWeWorkWith() {
         <div className="mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Who We Work With</h2>
           <p className="text-muted-foreground text-lg max-w-2xl">
-            AysRox supports serious R&D teams across disciplines, sectors, and regions.
+            Decision contexts where clarity matters more than speed or optimism.
           </p>
         </div>
 

@@ -4,60 +4,73 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const flagshipPrograms = [
   {
-    title: "Funding Win-Rate Accelerator™",
-    description: "A structured system to increase your funding success across multiple calls.",
+    title: "Funding Readiness and Strategy Program",
+    description:
+      "For teams navigating competitive calls and innovation challenges: trust-gap audits, call alignment, positioning, and risk, ethics, and impact framing.",
     features: [
-      "Proposal audits to identify trust gaps",
-      "Mapping research to suitable calls",
-      "Fundable narratives & risk strategies"
-    ]
+      "Trust-gap audits & call alignment",
+      "Positioning and defensible narratives",
+      "Risk, ethics, and impact framing",
+    ],
   },
   {
-    title: "Publication & Research Communication Studio™",
-    description: "For researchers aiming for respected journals and conferences.",
+    title: "Evidence Communication and Scientific Writing Studio",
+    description:
+      "For teams communicating evidence to journals, reviewers, leadership, partners, regulators, or funders: document restructuring, argument clarity, and figures, claims, and evidence alignment.",
     features: [
-      "Manuscript development",
-      "Clarity & coherence enhancement",
-      "Figures & narrative alignment"
-    ]
+      "Document restructuring and clarity",
+      "Figures, claims, and evidence alignment",
+      "Reviewer-oriented communication",
+    ],
   },
   {
-    title: "Thesis & Early Research Excellence Track™",
-    description: "Ethical, structured support for PhD, postdoctoral, and serious master’s research.",
+    title: "Thesis and Early Research Excellence Track",
+    description:
+      "For researchers building durable foundations: ethical structure and chapter planning, clarity and readability refinement, and publication pathways from completed work.",
     features: [
-      "Thesis structure & chapter planning",
-      "Clarity and readability enhancement",
-      "Publication pathways"
-    ]
+      "Ethical structure and chapter planning",
+      "Clarity and readability refinement",
+      "Publication pathways",
+    ],
   },
   {
-    title: "Regional Research & Collaboration Gateway™",
-    description: "For global teams building research and innovation in new regions.",
+    title: "Regional Research and Collaboration Gateway",
+    description:
+      "For global teams entering new research or funding regions: regional adaptation of proposals, local ethics and impact alignment, and joint-call and consortium documentation.",
     features: [
-      "Adapting proposals to regional requirements",
+      "Regional adaptation of proposals",
       "Local ethics & impact alignment",
-      "Joint-call documentation"
-    ]
-  }
+      "Joint-call & consortium documentation",
+    ],
+  },
 ];
 
-const coreServices = [
+const coreCapabilities = [
   {
-    title: "Grant & Proposal Development",
-    description: "Support for national, regional, and global calls in health, AI, climate, etc."
+    title: "Independent Second-Opinion Reviews",
+    description:
+      "Pre-commitment evaluations, decision memos for leadership or boards, audit-style reviews of evidence, models, or claims, and build, pilot, deploy, or pause recommendations with documented limits.",
   },
   {
-    title: "Technical Writing & Editing",
-    description: "Reviewer-ready manuscripts, reports, and white papers."
+    title: "Human-Centered Systems Analysis",
+    description:
+      "Workflow, task, and role mapping; identification of human risk and failure points; adoption and operational readiness evaluation; human–AI interaction analysis.",
   },
   {
-    title: "Research Strategy & Consulting",
-    description: "Aligning your R&D with funding trends and societal impact."
+    title: "Human Factors, Ergonomics, and Usability",
+    description:
+      "Interface and procedure evaluation; workload and attention analysis; comfort, exposure, fatigue, and performance considerations; inclusive and accessibility-aware design inputs.",
   },
   {
-    title: "Capacity Building Workshops",
-    description: "Training teams on grant writing, publishing, and research ethics."
-  }
+    title: "Responsible and Interpretable Machine Learning",
+    description:
+      "Data readiness and quality assessment; baseline-first modeling and evaluation; interpretability for non-specialist stakeholders; robustness and subgroup checks; uncertainty communication for decision-makers.",
+  },
+  {
+    title: "Research and Evidence Communication Support",
+    description:
+      "Contribution clarity; study design and methods review; analysis planning and interpretation; evidence-to-claim alignment for papers, reports, and decision memos; thesis and dissertation structuring.",
+  },
 ];
 
 export function ProgramsServices() {
@@ -105,9 +118,9 @@ export function ProgramsServices() {
         </div>
 
         <div>
-          <h3 className="text-2xl font-serif font-bold mb-8 text-secondary text-center">Core Services</h3>
+          <h3 className="text-2xl font-serif font-bold mb-8 text-secondary text-center">Core Capabilities</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {coreServices.map((service, index) => (
+            {coreCapabilities.map((service, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, scale: 0.95 }}
